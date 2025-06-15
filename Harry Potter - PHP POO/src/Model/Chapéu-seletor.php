@@ -1,7 +1,7 @@
 <?php
 
 class ChapeuSeletor {
-    private $casas = ['Grifinória', 'Sonserina', 'Corvinal', 'Lufa-Lufa'];
+    public $casas = ['Grifinória', 'Sonserina', 'Corvinal', 'Lufa-Lufa'];
 
 
     public function selecionarCasa($aluno) {
@@ -32,4 +32,4 @@ if (enviarEmail($alunosAceitos, $dumbledore, $resposta)) {
 } else {
     echo "Falha ao enviar email: {$resposta}";
 }
-?>
+
